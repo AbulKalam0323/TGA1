@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>আমার লিংক</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Hind Siliguri', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #ffffff;
+            line-height: 1.6;
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .profile {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid #ffffff;
+            margin-bottom: 15px;
+        }
+
+        .profile-name {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .profile-bio {
+            font-size: 16px;
+            margin-bottom: 20px;
+            color: #f0f0f0;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .link-item {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px 20px;
+            border-radius: 10px;
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 18px;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .link-item:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .social-icon {
+            font-size: 24px;
+            color: #ffffff;
+            text-decoration: none;
+            transition: transform 0.3s ease;
+        }
+
+        .social-icon:hover {
+            transform: scale(1.2);
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 10px;
+            }
+
+            .profile-img {
+                width: 120px;
+                height: 120px;
+            }
+
+            .profile-name {
+                font-size: 20px;
+            }
+
+            .link-item {
+                font-size: 16px;
+            }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <img src="https://i.ibb.co.com/N9hF94d/Messenger-creation-7230930759976219022.jpg" alt="প্রোফাইল ছবি" class="profile-img">
+            <h1 class="profile-name">The Great Artist</h1>
+            <p class="profile-bio">দ্যা গ্রেট আর্টিস্টের অফিশিয়াল ওয়েব-এ স্বাগতম!</p>
+        </div>
+
+        <div class="links">
+            <a href="https://www.greatartist.wordpress.com" class="link-item">ওয়েবসাইট</a>
+            <a href="https://linktr.ee/anim0323" class="link-item">লিঙ্কট্রি</a>
+            <a href="https://www.youtube.com/AnimAzad" class="link-item">ইউটিউব চ্যানেল</a>
+            <a href="mailto:greatartist.bd@yahoo.com" class="link-item">ইমেইল-১</a>
+            <a href="animazad0323bd@outlook.com" class="link-item">ইমেইল-২</a>
+        </div>
+
+        <div class="social-icons">
+            <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.youtube.com/AnimAzad" class="social-icon"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+</body>
+</html>
